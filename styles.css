@@ -1,2 +1,13 @@
-h1 {
+nav{background-color:black}
+
+.main {color:white;
+    background-color: #529cf1;
 }
+
+.seeplans{background-color: #26b758}
+
+.premium{background-color:  #fefefe;}
+
+footer{
+    color: white;
+    background-color: black;}
