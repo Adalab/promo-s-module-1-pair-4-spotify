@@ -1,6 +1,21 @@
-nav{background-color:black}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+    width: 100%;
+    height: 5vh;
+    background-color:black
+    /*por qué la barra menú se queda al final*/
+}
 
-.main {color:white;
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    width: 100%;
+    height: 50vh;
+    color:white;
     background-color: #529cf1;
 }
 
