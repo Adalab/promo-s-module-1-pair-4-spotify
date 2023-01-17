@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+    width: 100%;
+    height: 5vh;
+    background-color:black
+    /*por qué la barra menú se queda al final*/
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    width: 100%;
+    height: 50vh;
+    color:white;
+    background-color: #529cf1;
+}
+
+.seeplans{background-color: #26b758}
+
+.premium{background-color:  #fefefe;}
+
+footer{
+    color: white;
+    background-color: black;}
