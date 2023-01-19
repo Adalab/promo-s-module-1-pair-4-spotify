@@ -1,3 +1,4 @@
+/* --- HEADER Y SUS ELEMENTOS --- */
 header {
     display: flex;
     justify-content: space-between;
@@ -8,9 +9,19 @@ header {
     position: sticky;
     top: 0px;
     z-index: 1;
-    /*por qué la barra menú se queda al final*/
+    /*por qué la barra menú no se queda hasta el final?*/
+}
+.plans{
+    background-color:#26b758;
+    border-radius:500px;
+    padding:15px;
+    margin:15px;
+    color:white;
+    text-align: center; /* centrar texto */
+    text-decoration:none; /*Para quitar subrayado*/
 }
 
+/* --- MAIN Y SUS ELEMENTOS --- */
 .main {
     display: flex;
     flex-direction: column;
@@ -21,33 +32,43 @@ header {
     color:white;
     background-color: #529cf1;
 }
+.seeplans {
+    background-color: #26b758
+}
 
-.seeplans{background-color: #26b758}
 
+/* --- BENEFIT Y SUS ELEMENTOS --- */
 .premium{
     display:flex;
     display:block;
     background-color:  #fefefe;
-
+    padding-bottom:40px;
 }
-
+h2{
+     text-align: center; /* centrar texto */
+     padding:20px;
+}
 .benefit{
     display: flex;
-
+    justify-content: space-evenly;
+    padding:15px; /*Corrección de márgenes*/
+    
 }
-
 .benefit-icon {
-    transform: scale(0.25);
+
+    transform: scale(1); /*La escala estaba bien sin cambiar, lo que cambié fue el width aquí abajo*/
+    width:30%;
+    
 
 }
-
 .benefit-text {
     display: block;
     background-color:#26b758;
-    border: black 2px solid;
+    border: black 2px solid; 
     
 }
 
+/* --- FOOTER Y SUS ELEMENTOS --- */
 footer{
     display: flex;
     justify-content: space-between;
@@ -56,7 +77,9 @@ footer{
     position:sticky;
     bottom:0;
     }
-
 ul {
     list-style-type: none;
+}
+.flag {
+    transform: scale(0.40);
 }
