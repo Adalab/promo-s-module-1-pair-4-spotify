@@ -11,11 +11,6 @@ header {
     z-index: 1;
     /*por qué la barra menú no se queda hasta el final?*/
 }
-.logo {
-    transform: scale(1);
-    width: 30%;
-    height: 30%;
-}
 .plans{
     background-color:#26b758;
     border-radius:500px;

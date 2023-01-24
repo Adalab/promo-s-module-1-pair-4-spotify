@@ -13,8 +13,6 @@ header {
 }
 .logo {
     transform: scale(1);
-    width: 30%;
-    height: 30%;
 }
 .plans{
     background-color:#26b758;

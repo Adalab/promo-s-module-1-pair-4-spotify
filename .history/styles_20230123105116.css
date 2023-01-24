@@ -4,17 +4,12 @@ header {
     justify-content: space-between;
     padding: 4%;
     width: 100%;
-    height: 7vh;
+    height: 5vh;
     background-color:black;
-    position: fixed;
+    position: sticky;
     top: 0px;
     z-index: 1;
     /*por qué la barra menú no se queda hasta el final?*/
-}
-.logo {
-    transform: scale(1);
-    width: 30%;
-    height: 30%;
 }
 .plans{
     background-color:#26b758;
@@ -81,7 +76,8 @@ footer{
     color: white;
     background-color: black;
     position:sticky;
-    bottom:0;
+    bottom:0px;
+    width: 100%;
     }
 ul {
     list-style-type: none;
