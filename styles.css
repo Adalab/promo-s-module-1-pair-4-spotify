@@ -2,19 +2,20 @@
 header {
     display: flex;
     justify-content: space-between;
-    
-    width: 100%;
-    height: 7vh;
+    height:65px;
     background-color:black;
-    position: fixed;
+    position: sticky;
     top: 0px;
     z-index: 1;
     /*por qué la barra menú no se queda hasta el final?*/
 }
-.logo {
-    transform: scale(1);
-    width: 30%;
-    height: 30%;
+.logo-spotify {
+    height:50px;
+    padding:8px;
+}
+.logo-menu {
+    height:50px;
+    padding:8px;
 }
 .plans{
     background-color:#26b758;
@@ -25,7 +26,6 @@ header {
     text-align: center; /* centrar texto */
     text-decoration:none; /*Para quitar subrayado*/
 }
-
 /* --- MAIN Y SUS ELEMENTOS --- */
 .main {
     display: flex;
@@ -40,8 +40,6 @@ header {
 .seeplans {
     background-color: #26b758
 }
-
-
 /* --- BENEFIT Y SUS ELEMENTOS --- */
 .premium{
     display:flex;
@@ -58,22 +56,14 @@ h2{
     justify-content: space-evenly;
     justify-content: flex-start;
     padding:15px; /*Corrección de márgenes*/
-    
 }
 .benefit-icon {
-
     transform: scale(1); /*La escala estaba bien sin cambiar, lo que cambié fue el width aquí abajo*/
     width:30%;
-    
-
-}
+ }
 .benefit-text {
-    display: block;
-    background-color:#26b758;
-    border: black 2px solid; 
-    
+    display: block;   
 }
-
 /* --- FOOTER Y SUS ELEMENTOS --- */
 footer{
     display: flex;
@@ -89,3 +79,31 @@ ul {
 .flag {
     transform: scale(0.40);
 }
+
+@media (min-width: 480px){
+    header {
+        display: flex;
+    }
+
+    .logo-menu{
+        visibility: hidden;
+    }
+    .header-tablet{
+        Display:flex;
+        list-style-type: none;
+        color: white;
+    }
+    ul{
+        display:flex;
+        justify-content: space-evenly;
+        width:375px;
+        padding-right: 20px;
+        align-items: center;
+    }
+    li{
+        display:inline-block;
+      
+    }
+}
+
+ 
