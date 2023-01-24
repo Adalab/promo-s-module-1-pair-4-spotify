@@ -2,10 +2,11 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 4%;
+    
     width: 100%;
     height: 5vh;
     background-color:black;
+    border: 7px black solid;
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -26,7 +27,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding: 20px;
+    
     width: 100%;
     height: 50vh;
     color:white;
@@ -74,7 +75,7 @@ footer{
     justify-content: space-between;
     color: white;
     background-color: black;
-    position:sticky;
+    
     bottom:0;
     }
 ul {
