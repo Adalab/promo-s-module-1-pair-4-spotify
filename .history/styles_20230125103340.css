@@ -16,15 +16,6 @@ header {
 .logo-menu {
     height:50px;
     padding:8px;
-
-}
-
-.header-tablet {
-    display: none;
-}
-
-.dancer{
-    z-index: ;
 }
 .plans{
     background-color:#26b758;
@@ -52,7 +43,7 @@ header {
 /* --- BENEFIT Y SUS ELEMENTOS --- */
 .premium{
     display:flex;
-    display:block;
+    /*display:block;*/
     background-color:  #fefefe;
     padding-bottom:40px;
 }
@@ -101,19 +92,7 @@ ul {
         Display:flex;
         list-style-type: none;
         color: white;
-        visibility: visible;
     }
-
-    .main {
-        display: flex;
-        
-    }
-
-    .dancer {
-        width: 40%;
-        justify-content: flex-end;
-    }
-
     ul{
         display:flex;
         justify-content: space-evenly;

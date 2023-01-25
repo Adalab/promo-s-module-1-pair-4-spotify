@@ -16,15 +16,6 @@ header {
 .logo-menu {
     height:50px;
     padding:8px;
-
-}
-
-.header-tablet {
-    display: none;
-}
-
-.dancer{
-    z-index: ;
 }
 .plans{
     background-color:#26b758;
@@ -76,7 +67,7 @@ h2{
 /* --- FOOTER Y SUS ELEMENTOS --- */
 footer{
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     color: white;
     background-color: black;
     width: 100vw;
@@ -101,19 +92,7 @@ ul {
         Display:flex;
         list-style-type: none;
         color: white;
-        visibility: visible;
     }
-
-    .main {
-        display: flex;
-        
-    }
-
-    .dancer {
-        width: 40%;
-        justify-content: flex-end;
-    }
-
     ul{
         display:flex;
         justify-content: space-evenly;

@@ -16,15 +16,10 @@ header {
 .logo-menu {
     height:50px;
     padding:8px;
-
 }
 
 .header-tablet {
-    display: none;
-}
-
-.dancer{
-    z-index: ;
+    visibility: hidden;
 }
 .plans{
     background-color:#26b758;
@@ -101,19 +96,7 @@ ul {
         Display:flex;
         list-style-type: none;
         color: white;
-        visibility: visible;
     }
-
-    .main {
-        display: flex;
-        
-    }
-
-    .dancer {
-        width: 40%;
-        justify-content: flex-end;
-    }
-
     ul{
         display:flex;
         justify-content: space-evenly;

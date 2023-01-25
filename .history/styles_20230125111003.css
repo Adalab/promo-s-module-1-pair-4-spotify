@@ -105,13 +105,11 @@ ul {
     }
 
     .main {
-        display: flex;
-        
+        z-index: -1;
     }
 
-    .dancer {
-        width: 40%;
-        justify-content: flex-end;
+    .main-title .main-text .plans .conditions-term {
+        z-index: 0;
     }
 
     ul{
