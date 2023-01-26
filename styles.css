@@ -16,15 +16,9 @@ header {
 .logo-menu {
     height:50px;
     padding:8px;
-
 }
-
 .header-tablet {
     display: none;
-}
-
-.dancer{
-    z-index: ;
 }
 .plans{
     background-color:#26b758;
@@ -32,8 +26,8 @@ header {
     padding:15px;
     margin:15px;
     color:white;
-    text-align: center; /* centrar texto */
-    text-decoration:none; /*Para quitar subrayado*/
+    text-align: center;
+    text-decoration:none;
 }
 /* --- MAIN Y SUS ELEMENTOS --- */
 .main {
@@ -125,6 +119,37 @@ ul {
         display:inline-block;
       
     }
+    .text{
+        line-height:50px;
+        
+    }
+    .main-title{
+        margin-left: 20px;
+        font-size: 80px;
+        display: inline-block;
+    }
+    .main-text{
+        margin-left: 20px;
+        font-size: 28px;
+    }
+    .plans{
+        
+        margin-left: 20px;
+        font-size: 20px;
+        display: inline-block;
+        margin-top: 60px;
+    }
+    .condictions-terms{
+        margin-left: 20px;
+        font-size: 13px;
+        margin-bottom: 10px;
+       
+    }
+    .main{
+        background-image:url("./images/premium_dancer.png"); 
+        background-color:#529cf1;
+    }
+    
 }
 
  
